@@ -8,7 +8,7 @@ const aluno =(nome,idade,matricula,curso)=>Object.freeze({nome, idade, matricula
 const turma =Object.freeze([
     criarAluno("Breno",22,2021000,"CC"),
     criarAluno("Paula",20,2022001,"SI"),
-    criarAluno("Breno",22,2023002,"EC"),
+    criarAluno("",22,2023002,"EC"),
     criarAluno("Kalil",78,1978003,"CC")
 ])
 
